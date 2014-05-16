@@ -4,4 +4,7 @@ python:
     - "2.7"
     - "3.3"
 
+before_install:
+    - sudo pip install coverage
+
 script: ./test.py
